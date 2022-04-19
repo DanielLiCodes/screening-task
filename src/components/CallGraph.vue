@@ -1,6 +1,6 @@
 <template>
     <div class="graphHolder">
-        <button @click="createGraph">Create Graph</button>\
+        <button @click="createGraph">Create Graph</button>
         <!-- Click on createGraph when json is added through file input, then it will create the graph -->
     </div>
 
