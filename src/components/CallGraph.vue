@@ -25,7 +25,6 @@ export default {
         $('.graphHolder svg').remove();
         //Remove previous graph if any
         var g = new dagreD3.graphlib.Graph().setGraph({});
-        var nodes = [];
         this.json.nodes.forEach(
             node => {
                 let nodeInstructions = "";
